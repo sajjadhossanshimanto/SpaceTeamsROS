@@ -89,3 +89,5 @@ echo "[ST] Doing colcon build of space_teams_definitions..."
 colcon build --packages-select space_teams_definitions
 echo "[ST] Colcon build of space_teams_definitions done."
 
+# Make the run_rosbridge.bash script executable
+chmod +x run_rosbridge.bash
